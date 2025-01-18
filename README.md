@@ -159,7 +159,7 @@ This is because the map the altered manually and the space is just same as 10 x 
 When the map is altered till it is not physically possible to path through it, the output will staright output its start point and ending point.
 
 
-![image](https://github.com/user-attachments/assets/223675e6-1c49-4c61-9108-6e3a2629ccfa
+![image](https://github.com/user-attachments/assets/223675e6-1c49-4c61-9108-6e3a2629ccfa)
 
 This is because the algorithm only calculate the cost when the space it can move to have a total distance cost less than the space its on, when it reach the uncrossable barrier,
 the algorithm will not be able to calculate the cost or any space beside it.
