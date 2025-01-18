@@ -173,20 +173,20 @@ Time Complexity
 
 1. A* algorithm 
 
-  1) Best Case (O(1))
+  a) Best Case (O(1))
   
     The best case scenario is when the start and end points are adjacent, or there is a direct, immediate path with minimal processing.
     In this case, the algorithm might only check a few nodes, so it executes very quickly, potentially in O(1) time.
 
   
-  2) Average Case (O(m * log m))
+  b) Average Case (O(m * log m))
 
     m is the number of grid cells (let m = rows * cols).
     The priority queue operations take O(log m) time. In the average case, the algorithm will explore several nodes, and the total number of nodes explored is O(m).
     The average-case time complexity is O(V * log V).
 
   
-  3) Worst Case (O(V * log V))
+  c) Worst Case (O(V * log V))
   
     In worst case scenario, the algorithm might need to explore all m nodes , and each node will require O(log m) operations for the priority queue.
     Therefore, the worst-case time complexity remains O(m * log m).
@@ -198,16 +198,16 @@ Time Complexity
    n is the number of packages.
 
   
-  1) Best Case (O(n log n))
+  a) Best Case (O(n log n))
   
     The best-case scenario occurs if the packages are already sorted. The average-case sorting algorithm has a time complexity of O(n log n).
 
   
-  2) Average Case (O(n log n))
+  b) Average Case (O(n log n))
   
     Sorting using std::sort() on a vector of n packages typically takes O(n log n) time.
 
-  3) Worst Case (O(n log n))
+  c) Worst Case (O(n log n))
   
     The worst-case time complexity of std::sort() is also O(n log n). This happens when the sorting algorithm has to perform the maximum number of comparisons.
 
@@ -215,17 +215,17 @@ Time Complexity
   
 3. Input and Output
    
-  1) Best Case (O(1))
+  a) Best Case (O(1))
   
     In the best case, if there are very few packages (e.g., n = 1), the I/O operations take constant time O(1).
 
    
-  2) Average Case (O(n)))
+  b) Average Case (O(n)))
   
     If there are n packages, the time complexity for input and output operations is O(n) because the program processes each package individually.
 
    
-  3) Worst Case (O(n))
+  b) Worst Case (O(n))
   
     In the worst case, if there are n packages, the program still performs O(n) I/O operations.
 
@@ -253,7 +253,7 @@ Worst Case: O(m * log m)
 Package Sorting
 
 
-Best Case: O(n log n
+Best Case: O(n log n)
 
 Average Case: O(n log n)
 
@@ -279,15 +279,15 @@ Worst Case: O(n)
 Total Time Complexity
 
 
-  1) Best Case: O(n log n)
+  a) Best Case: O(n log n)
   
     The best-case scenario would occur when A* pathfinding finds a quick solution (O(1)), and I/O operations and sorting are minimal. 
     
-  2) Average Case: O(m * log m + n log n)
+  b) Average Case: O(m * log m + n log n)
   
     The average-case complexity combines sorting and pathfinding with the sorting and A* pathfinding operations contributing significantly.
 
-  3) Worst Case: O(m * log m + n log n) 
+  c) Worst Case: O(m * log m + n log n) 
   
     The worst-case scenario happens when A* pathfinding needs to explore all nodes in the grid, and sorting takes the longest time. 
 
