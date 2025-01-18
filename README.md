@@ -25,7 +25,9 @@ The reasons for choosing A* are as follow:
 Code Explanation
 
 Firstly structure is used to hold the details of the package inputed
+
 ![image](https://github.com/user-attachments/assets/37176582-ba4b-4340-9c47-4be179aeaee8)
+
 the details include Package Id, Package urgency, Package weight and its descirption.
 
 ![image](https://github.com/user-attachments/assets/308b3cb9-0413-43c5-875d-8ff3e9308f10)
@@ -79,6 +81,8 @@ Lastly it outputs the result obtain from calculating the shortest path.
 ===========================================================================================================================================================================================================
 
 Ouput
+
+
 ![image](https://github.com/user-attachments/assets/f7eec1df-0bf9-4ef5-98be-fcdb1f616cbf)
 This is how the algorithm will run under normal condition, first it will ask for the amount of packages, then the details of the packages.
 The next question is the point where the package will start and the point where the package will be delivered.
