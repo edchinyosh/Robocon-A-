@@ -192,6 +192,8 @@ Time Complexity
     Therefore, the worst-case time complexity remains O(m * log m).
 
 
+=====
+
   
 2. Sorting Packages
 
@@ -212,6 +214,8 @@ Time Complexity
     The worst-case time complexity of std::sort() is also O(n log n). This happens when the sorting algorithm has to perform the maximum number of comparisons.
 
 
+=====
+
   
 3. Input and Output
    
@@ -229,6 +233,8 @@ Time Complexity
   
     In the worst case, if there are n packages, the program still performs O(n) I/O operations.
 
+
+=====
 
    
 4. Overall Time Complexity
