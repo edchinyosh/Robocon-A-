@@ -233,39 +233,51 @@ Time Complexity
 
    
 4. Overall Time Complexity
+
    
 Combining the time complexities of the major operations (A* pathfinding, package sorting, Input and Output ):
+
 
 A* Pathfinding
 
 Best Case: O(1) 
+
 Average Case: O(m * log m)
+
 Worst Case: O(m * log m)
 
 
 Package Sorting
 
-Best Case: O(n log n)
+Best Case: O(n log n
+
 Average Case: O(n log n)
+
 Worst Case: O(n log n
 
 
 Input and Output 
 
 Best Case: O(1) 
+
 Average Case: O(n)
+
 Worst Case: O(n)
 
 
 
 Total Time Complexity
+
   Best Case: O(n log n)
+  
     The best-case scenario would occur when A* pathfinding finds a quick solution (O(1)), and I/O operations and sorting are minimal. 
     
   Average Case: O(m * log m + n log n)
+  
     The average-case complexity combines sorting and pathfinding with the sorting and A* pathfinding operations contributing significantly.
 
   Worst Case: O(m * log m + n log n) 
+  
     The worst-case scenario happens when A* pathfinding needs to explore all nodes in the grid, and sorting takes the longest time. 
 
 
